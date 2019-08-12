@@ -9,7 +9,7 @@ Dependencies
 This driver depends on:
 
 * `Adafruit CircuitPython <https://github.com/adafruit/circuitpython>`_
-* Adafruit neopixel
+* Adafruit neopixel 
 * Compatible microcontroller (tested on Metro M4)
 
 

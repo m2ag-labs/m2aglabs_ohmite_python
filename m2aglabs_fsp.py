@@ -117,7 +117,7 @@ class Ohmite:
         self._wiper.deinit()
         l_wiper = AnalogIn(self._wiper_pin)
         self._ref.value = 0
-        self._v1.switch_to_output(value=0)
+        self._v1.switch_to_output(value=True)
         self._v2.switch_to_input()
         time.sleep(0.001)
         wiper_1 = l_wiper.value
